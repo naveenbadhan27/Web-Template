@@ -1,0 +1,91 @@
+html,body
+{
+	padding: 0px;
+	margin: 0px;
+}
+.navbar
+{
+	background: linear-gradient(to bottom,#4d4d4d, transparent);
+	height: 60px;
+	width: 100%;
+	position: fixed;
+}
+.logo
+{
+	color: white;
+	font-size: 40px;
+	font-family: Brush Script MT;
+	position: absolute;
+	left: 30px;
+}
+.list1
+{
+	top: -5px;
+	position: absolute;
+	right: 100px;
+	font-family: Brush Script MT;	
+	font-size: 20px;
+}
+.list1 li
+{
+	display: inline;
+	padding: 10px 15px;
+}
+.list1 li a
+{
+	text-decoration: none;
+	color: white;
+}
+
+.home
+{
+	height:700px;
+	width: 100%;
+	background: url('img/food1.jpg');
+	background-size: 100% auto;
+	animation: gif 5s ease infinite;
+}
+@keyframes gif
+{
+	50%
+	{
+		background: url('img/food2.jpg');
+		background-size: 100% auto;
+	}
+	100%
+	{
+		background: url('img/food1.jpg');
+		background-size: 100% auto;
+	}
+}
+
+.about
+{
+	width: 100%;
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+.col6
+{
+	width: 50%;
+}
+.col6 img
+{
+	width: 80%;
+	margin-left: 10%;
+}
+.right
+{
+	float: right;
+	margin-top: -300px;
+	font-size: 20px;
+	line-height: 40px;
+	text-align: justify;
+}
+
+
+
+
+
+
+
